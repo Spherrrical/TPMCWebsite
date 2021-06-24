@@ -11,7 +11,7 @@ src: url('fonts/Brandon_bld.otf'); /* file name */
 }
 @font-face {
 font-family: Futura;
-src: url('fonts/futura_light_bt[1].ttf'); /* file name */
+src: url('fonts/Futura.ttf'); /* file name */
 }
 
 @media only screen and (max-width: 800px) {
@@ -96,7 +96,7 @@ src: url('fonts/futura_light_bt[1].ttf'); /* file name */
   padding-bottom: 10px;
   margin: 20px;
   text-align: center;
-  font-family: Brandon Grotesque;
+  font-family: Futura;
   font-size: 40px;
   color : white;
  
