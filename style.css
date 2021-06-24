@@ -1,0 +1,428 @@
+:root{
+  --backgroundstylecolor: rgb(0, 0, 0);
+}
+
+body{
+  background-color: var(--backgroundstylecolor)
+}
+@font-face {
+font-family: Brandon Grotesque;
+src: url('fonts/Brandon_bld.otf'); /* file name */
+}
+@font-face {
+font-family: Futura;
+src: url('fonts/futura_light_bt[1].ttf'); /* file name */
+}
+
+@media only screen and (max-width: 800px) {
+  h1.title{
+    font-size: 45px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  div.info{
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  div.tos{
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .copy4 footer{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  li.step{
+    width: 125%;
+  }
+}
+@media only screen and (max-width: 800px) {
+  div.center-info{
+    width: 90%;
+    
+    
+
+  }
+  
+}
+@media only screen and (max-width: 800px) {
+  h1.title2{
+    font-size: 42px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  h2.headers{
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  img.banner{
+    width: 75%;
+  }
+}
+.title{
+  padding: 30x;
+  margin: 20px;
+  text-align: center;
+  font-family: Brandon Grotesque;  
+  font-size: 70px;
+  color : rgb(255, 255, 255);
+}
+
+
+.title2{
+  padding: 20x;
+  margin: 10px;
+  text-align: center;
+  font-family: Brandon Grotesque;  
+  font-size: 71px;
+  color: rgb(114, 5, 5);
+  animation: mymoves 3s ;
+}
+
+@keyframes mymoves {
+  from {left: 300px;}
+  to {left: 200px;}
+}
+
+
+.about{
+  padding: 50x;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 20px;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 40px;
+  color : white;
+ 
+}
+.info{
+  /* text-align: center; */
+  font-family: Futura;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+  color : white;
+  width: 50%;
+  display: block;
+  margin: auto;
+  
+}
+
+/* .centerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} */
+.partnerimage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  animation-name: spinny;
+  animation-duration: 8000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+ 
+
+}
+.partnerimage6{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+
+}
+.partnerimage7{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+
+}
+
+
+@keyframes spinny{
+  to{
+    transform: rotate(360deg)
+  }
+}
+.center-info{
+  text-align: center;
+  font-family: Futura;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+  color : white;
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.tos{
+  font-family: Futura;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+  color : white;
+  width: 50%;
+  display: block;
+  margin: auto;
+  
+}
+.email{
+  font-family: Futura;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+  color : rgb(124, 124, 124);
+  width: 50%;
+  display: block;
+  margin: auto;
+  /* transition-duration: 0.6s ; */
+  
+}
+
+.email:hover{
+  font-family: Futura;
+  /* padding-left: 350px;
+  padding-right: 350px; */
+  color : rgb(255, 255, 255);
+  width: 50%;
+  display: block;
+  margin: auto;
+  /* transition-duration: 0.6s ; */
+  
+}
+
+.copy{
+  text-align: center;
+  font-family: Futura;
+  font-size: 11px;
+  color : rgb(145, 144, 144);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  
+}
+
+.copy4{
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 27px;
+  color : rgb(255, 255, 255);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  
+
+}.copy5{
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 27px;
+  color : rgb(255, 255, 255);
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 100px;
+  animation: slideInFromLeft 3s ;
+  transition-duration: 1.9s;
+  
+}
+
+.headers{
+  padding: 50x;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin: 20px;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  font-size: 40px;
+  color : white;
+  animation: slideInFromLeft 3s ;
+  transition-duration: 1.9s;
+}
+
+.navbar{
+  
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.navbarlink{
+  font-family: Brandon Grotesque;
+  text-align: center;
+  padding-right: 30px;
+  font-size: 15px;
+}
+.navbarfooters{
+  
+  text-align: center;
+}
+.navbarfooter{
+  transition-duration: 0.4s;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  padding-right: 30px;
+  font-size: 11px;
+  color: grey;
+}
+.navbarfooter:link{
+  transition-duration: 0.4s;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  padding-right: 30px;
+  font-size: 11px;
+  color: grey;
+  text-decoration: none;
+}
+
+.navbarfooter:hover{
+  transition-duration: 0.4s;
+  text-align: center;
+  font-family: Brandon Grotesque;
+  padding-right: 30px;
+  font-size: 11px;
+  transition-timing-function: ease;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.navbarlink:link{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.4s;
+  
+}
+.navbarlink:visited{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.4s;
+}
+
+.navbarlink:hover{
+  transition-duration: 0.6s;
+  
+  transition-timing-function: ease-out;
+  color: rgb(182, 21, 21);
+}
+
+
+.steps{
+  
+  font-family: Futura;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.step{
+  padding-bottom: 10px;
+  color : white;
+}
+
+.banner{
+  /* width: 100%; */
+  display: block;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+.bottom{
+  height: 100px;
+  width: auto;
+  margin: 20px;
+  padding: 10px;
+}
+
+.space{
+  height: 40px;
+}
+
+/* .icon_area{
+  
+  width: 20px;
+  height: 20px;
+}
+
+.iconimage{
+  width: 50px;
+  height: 50px;
+  
+  margin-top: 15px;
+  margin-left: 300px;
+}
+   */
+
+
+.activeClass{
+  font-family: Brandon Grotesque;
+  text-align: center;
+  padding-right: 30px;
+  font-size: 15px;
+  color: rgb(161, 20, 20);
+}
+
+.activeClass:link{
+  text-decoration: none;
+}
+
+.dropbtn {
+  /* transition-duration: 0.6s; */
+  background-color: var(--backgroundstylecolor);
+  color: rgb(255, 255, 255);
+  padding: 16px;
+  font-family: Brandon Grotesque;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+}
+
+.dropbtn:hover{
+  /* transition-duration: 0.6s; */
+  color: rgb(161, 20, 20);
+}
+
+.dropdown {
+  position: relative;
+  font-family: Brandon Grotesque;
+  display: inline-block;
+  transition-duration: 0.6s;
+  border-radius: 10px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b1b0b0bd;
+  font-family: Brandon Grotesque;
+  min-width: 110px;
+  transition-duration: 0.6s;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.dropdown-content a {
+  color: rgb(0, 0, 0);
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Brandon Grotesque;
+  transition-duration: 0.6s;
+}
+
+.dropdown-content a:hover {background-color: rgb(255, 255, 255); transition-duration: 0.6s; border-radius: 10px; }
+
+.dropdown:hover .dropdown-content {display: block; transition-duration: 0.6s;}
+
+.dropdown:hover .dropbtn { transition-duration: 0.6s;}
+
+
